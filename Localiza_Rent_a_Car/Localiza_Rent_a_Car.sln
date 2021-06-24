@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza_Rent_a_Car", "Localiza_Rent_a_Car.csproj", "{71CCEB27-FF16-43AF-87A0-641750DB036C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api_Localiza", "Api_Localiza", "{388AA9F1-5EC6-4222-9231-6ADEFB61B1E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{78EC6219-EA5D-407D-BA39-79EB97DAC2AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Historia", "Historia", "{90F30773-B33E-4144-9F2D-45B011B5AD9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{9727E48C-5217-4F66-98A9-123D61E60FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "..\Infra\Infra.csproj", "{7761798A-F64D-4A61-8FF4-D4BD6275329F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "..\Dominio\Dominio.csproj", "{2C8529CC-B59E-4155-877A-B60674F6BE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Historia", "..\Historia\Historia.csproj", "{3B30B44B-CB11-4644-A647-FB38E47BC22A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71CCEB27-FF16-43AF-87A0-641750DB036C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CCEB27-FF16-43AF-87A0-641750DB036C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CCEB27-FF16-43AF-87A0-641750DB036C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CCEB27-FF16-43AF-87A0-641750DB036C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7761798A-F64D-4A61-8FF4-D4BD6275329F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7761798A-F64D-4A61-8FF4-D4BD6275329F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7761798A-F64D-4A61-8FF4-D4BD6275329F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7761798A-F64D-4A61-8FF4-D4BD6275329F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8529CC-B59E-4155-877A-B60674F6BE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8529CC-B59E-4155-877A-B60674F6BE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8529CC-B59E-4155-877A-B60674F6BE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8529CC-B59E-4155-877A-B60674F6BE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B30B44B-CB11-4644-A647-FB38E47BC22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B30B44B-CB11-4644-A647-FB38E47BC22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B30B44B-CB11-4644-A647-FB38E47BC22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B30B44B-CB11-4644-A647-FB38E47BC22A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71CCEB27-FF16-43AF-87A0-641750DB036C} = {388AA9F1-5EC6-4222-9231-6ADEFB61B1E2}
+		{7761798A-F64D-4A61-8FF4-D4BD6275329F} = {9727E48C-5217-4F66-98A9-123D61E60FAA}
+		{2C8529CC-B59E-4155-877A-B60674F6BE07} = {78EC6219-EA5D-407D-BA39-79EB97DAC2AA}
+		{3B30B44B-CB11-4644-A647-FB38E47BC22A} = {90F30773-B33E-4144-9F2D-45B011B5AD9F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7B27742-A395-46E3-B319-8540F748B6AD}
+	EndGlobalSection
+EndGlobal
